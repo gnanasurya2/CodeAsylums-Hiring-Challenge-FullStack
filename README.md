@@ -2,9 +2,9 @@
 
 # **FullStack Hiring Challenge**
 
-### [Visit Us At] (https://www.codeasylums.com)
+### [Visit Us At](https://www.codeasylums.com)
 
-### [About the Event] (https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/blob/master/HIRING%20CHALLENGE.pdf)
+### [About the Event](https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/blob/master/HIRING%20CHALLENGE.pdf)
 
 ## Instruction for the Event:
 - Fork this Repository 
@@ -12,6 +12,6 @@
 - Labels will decide the score associated with the issue
 - 
 
-#### Assets For Frontend - (https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/tree/master/Frontend/Assets-Frontend)
+#### [Assets For Frontend](https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/tree/master/Frontend/Assets-Frontend)
 
 
