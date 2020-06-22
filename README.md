@@ -3,7 +3,7 @@
 # **FullStack Hiring Challenge**
 
 ### PROJECT IDEA: *(On which you will work for next 48 hrs)*
-#### Asynamite - 
+### **Asynamite** 
 A Platform for coding, hacking, debugging, data science challenges at one place.
 
 ### [Who Are We?](https://www.codeasylums.com)
@@ -16,7 +16,7 @@ A Platform for coding, hacking, debugging, data science challenges at one place.
 - Labels will decide the score associated with the issue
 - Select the issue according to your will and the score you wish to learn.
 - As soon as you solve an issue, raise a PR for that issue.
-- Do not wait for that issue to get merged, move on to the next issue.
+- Do not wait for that PR to get merged, move on to the next issue.
 
 #### [Assets For Frontend](https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/tree/master/Frontend/Assets-Frontend)
 
