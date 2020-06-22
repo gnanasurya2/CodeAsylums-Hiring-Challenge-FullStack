@@ -15,6 +15,7 @@ A Platform for coding, hacking, debugging, data science challenges at one place.
 - Go and check the issues and their labels
 - Labels will decide the score associated with the issue
 - Select the issue according to your will and the score you wish to learn.
+- Check the Assets provided in the code, and use the same bolier plate code as provided here.
 - As soon as you solve an issue, raise a PR for that issue.
 - Do not wait for that PR to get merged, move on to the next issue.
 
