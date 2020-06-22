@@ -2,7 +2,7 @@
 
 # **FullStack Hiring Challenge**
 
-### [Visit Us At](https://www.codeasylums.com)
+### [Who Are We?](https://www.codeasylums.com)
 
 ### [About the Event](https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/blob/master/HIRING%20CHALLENGE.pdf)
 
