@@ -23,11 +23,11 @@ A Platform for coding, hacking, debugging, data science challenges at one place.
 
 
 ## Max Score for each issues:
-Easy - 30
-Medium - 50
-Difficult - 70 
-Very Difficult - 100
-You will be provided max score only if the issue will be completely resolved, otherwise partial scoring will be there.
+- Easy - 30
+- Medium - 50
+- Difficult - 70 
+- Very Difficult - 100
+###### You will be provided max score only if the issue will be completely resolved, otherwise partial scoring will be there.
 
 ## Rules:
 - You can start the challenge at 10:00PM IST, 23 June 2020.
