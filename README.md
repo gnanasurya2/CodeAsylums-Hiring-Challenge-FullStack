@@ -36,3 +36,7 @@ A Platform for coding, hacking, debugging, data science challenges at one place.
 - We will be calculating your final scores by calculating the number of commits you will be able to merge related to issues.
 - The commits will be merged only if we think, your code is relevant to the issue the commit is related to.
 - In case if more than one person is solving a single issue, the best committed code will be merged, FCF~~S~~M(First Commit First Merge) will not be entertained.
+
+## For Doubts and Discussions:
+- You can comment on the issue itself.
+- You can also join our [Slack Forum](https://www.codeasylums.com)
