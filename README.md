@@ -21,9 +21,18 @@ A Platform for coding, hacking, debugging, data science challenges at one place.
 
 #### [Assets For Frontend](https://github.com/codeasylums-bootcamp/CodeAsylums-Hiring-Challenge-FullStack/tree/master/Frontend/Assets-Frontend)
 
+
+## Max Score for each issues:
+Easy - 30
+Medium - 50
+Difficult - 70 
+Very Difficult - 100
+You will be provided max score only if the issue will be completely resolved, otherwise partial scoring will be there.
+
 ## Rules:
 - You can start the challenge at 10:00PM IST, 23 June 2020.
 - The duration of the challenge is 48hrs.
+- No PRs after this will be accepted.
 - We will be calculating your final scores by calculating the number of commits you will be able to merge related to issues.
 - The commits will be merged only if we think, your code is relevant to the issue the commit is related to.
 - In case if more than one person is solving a single issue, the best committed code will be merged, FCF~~S~~M(First Commit First Merge) will not be entertained.
