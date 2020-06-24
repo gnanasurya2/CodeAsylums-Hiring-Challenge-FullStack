@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    height: 70%;
+}
+
+.button {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-color: white transparent white transparent;
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 100px;
+}
