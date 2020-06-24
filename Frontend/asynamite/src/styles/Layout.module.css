@@ -3,6 +3,10 @@
     min-height: 100vh;
 }
 
+.content {
+    padding-top: 100px;
+}
+
 header {
     display: flex;
     height: 100px;
@@ -11,18 +15,28 @@ header {
     align-items: center;
     padding: 5px 10px;
     background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 0px 40px 30px black;
 }
 
 header img {
     height: 80%;
+    z-index: 1000;
 }
 
 header nav {
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 100%;
+    max-width: 700px;
 }
 
 .link {
@@ -43,6 +57,8 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    right: 0;
 }
 
 .navButton {
@@ -52,4 +68,62 @@ header nav {
     font-size: 24px;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+.headerClass {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* display: flex !important; */
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:1250px) {
+    .headerClass {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        background-color: black;
+        flex-direction: column;
+        /* display: none; */
+    }
+
+    .buttonWrapper {
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 120px;
+    }
+
+    header nav {
+        flex-direction: column;
+        height: 40%;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .headerClass {
+        width: 100%;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    .content {
+        padding-top: 70px;
+    }
 }

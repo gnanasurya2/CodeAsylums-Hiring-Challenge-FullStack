@@ -25,6 +25,7 @@
 .title span {
     font-weight: 400;
     height: 100%;
+    padding-bottom: 10px;
 }
 
 .toggleWrapper {
@@ -68,4 +69,53 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-self: end;
+}
+
+@media screen and (max-width:1700px) {
+    .contestWrapper {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .contestWrapper {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .contestWrapper {
+        grid-template-columns: auto;
+    }
+
+    .asynamite {
+        height: 30px;
+    }
+
+    .asynamiteDiv::after {
+        width: 25px;
+    }
+
+    .title span {
+        font-size: 24px;
+    }
+
+    .titleDiv div h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .titleDiv {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .titleDiv div {
+        padding-bottom: 10px;
+    }
+
+    .title span {
+        padding-bottom: 20px;
+    }
 }

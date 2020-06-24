@@ -5,9 +5,9 @@ const Wrapper = styled.div`
   width: 50px;
   height: 50px;
   background-color: black;
-  position: relative;
-  top: -15px;
-  left: 300px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

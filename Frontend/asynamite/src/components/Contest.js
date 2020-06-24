@@ -4,6 +4,7 @@ import Hamburger from "./Hamburger";
 import background from "../asset/images/1.png";
 
 const Wrapper = styled.div`
+  position: relative;
   width: 350px;
   height: 450px;
   background-color: white;
@@ -21,6 +22,10 @@ const Wrapper = styled.div`
   }
   &:hover {
     transform: scale(1.05);
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 90%;
   }
 `;
 
@@ -80,19 +85,15 @@ const Contest = (props) => {
         <ButtonWrapper>
           <ButtonContainer>
             <ButtonTitle>Starts</ButtonTitle>
-            <YellowWrapper>1st june</YellowWrapper>
+            <YellowWrapper>{props.startDate}</YellowWrapper>
           </ButtonContainer>
           <ButtonContainer>
             <ButtonTitle>Ends</ButtonTitle>
-            <YellowWrapper>1st june</YellowWrapper>
+            <YellowWrapper>{props.endDate}</YellowWrapper>
           </ButtonContainer>
         </ButtonWrapper>
-        <MainTitle>Lockdown Hackathon</MainTitle>
-        <Content>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          error vel, id vero temporibus aspernatur dignissimos incidunt eum iure
-          amet.
-        </Content>
+        <MainTitle>{props.title}</MainTitle>
+        <Content>{props.content}</Content>
       </InnerWrapper>
     </Wrapper>
   );

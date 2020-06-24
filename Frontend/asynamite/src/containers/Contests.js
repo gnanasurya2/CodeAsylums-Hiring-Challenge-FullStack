@@ -4,6 +4,7 @@ import Contest from "../components/Contest";
 import Background from "../asset/images/Background.png";
 import Asynamite from "../asset/images/Asynamite.png";
 import Footer from "../components/Footer";
+import Data from "../asset/Data/Contest.json";
 
 const Contests = (props) => {
   return (
@@ -33,14 +34,14 @@ const Contests = (props) => {
           </div>
         </div>
         <div className={styles.contestWrapper}>
-          <Contest />
-          <Contest />
-          <Contest />
-          <Contest />
-          <Contest />
-          <Contest />
-          <Contest />
-          <Contest />
+          {Data.contest.map((ele) => (
+            <Contest
+              startDate={ele.start}
+              endDate={ele.end}
+              title={ele.name}
+              content={ele.content}
+            />
+          ))}
         </div>
       </div>
       <Footer />
