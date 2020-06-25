@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import Data from "./Data";
 
 const Wrapper = styled.div`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
-  margin-bottom: 30px;
+  margin-top: 30px;
   border-radius: 7px;
   background-color: #241125;
 `;
@@ -21,7 +20,7 @@ const Gadget = (props) => {
   return (
     <Wrapper width={props.width} height={props.height}>
       <Title>{props.title}</Title>
-      <div style={{ width: "100%", height: "90px" }}></div>
+      {props.children}
     </Wrapper>
   );
 };
